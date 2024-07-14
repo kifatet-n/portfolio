@@ -2,12 +2,12 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className='footer  bg-slate-900 flex justify-between px-[100px] py-[60px]'>
+    <footer className='footer  bg-slate-900 flex md flex-wrap justify-between px-[100px] py-[60px]'>
         <div className='footer-left py-3'>
         <h1 className='footer-title text-5xl text-white'>Concat</h1>
         <p className='text-white text-2xl'>Feel free to reach out!</p>
         </div>
-        <div className='footer-right columns-1'>
+        <div className='footer-right columns-1 '>
             <div className='flex gap-2'>
             <img src="./src/assets/contact/emailIcon.png" />
             <p className='text-xl text-white py-3'>myemail@email.com</p>
