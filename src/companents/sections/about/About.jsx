@@ -6,8 +6,8 @@ function About() {
         <h2 className='text-white px-[120px] py-10'>ABOUT</h2>
         <div className='flex'>
             <img src="./src/assets/about/aboutImage.png" alt="" />
-            <div className='py-40'>
-                <div className='flex '>
+            <div className='py-40 grid gap-y-10'>
+                <div className='flex bg-slate-950 '>
                     <img src="./src/assets/about/cursorIcon.png" alt="" />
                     <p className='text-white'>Frontend Developer <br />
                          I’m a front-end developer with experience <br />

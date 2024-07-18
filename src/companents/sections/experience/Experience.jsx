@@ -2,10 +2,10 @@ import React from 'react'
 
 function Experience() {
   return (
-    <div>
+    <div className='py-10'>
         <h2  className='text-white px-[120px] py-10'>EXPERIENCE</h2>
         <div className='flex justify-between px-[120px]'>
-            <div className=''>
+            <div className='grid gap-y-10'>
             <div className='flex gap-10'>
             <div>
             <img src="./src/assets/skills/html.png" alt="" className=' py-2 px-2 rounded-full bg-slate-600'/>
@@ -39,7 +39,7 @@ function Experience() {
             <h3 className='text-white'>Figma</h3>
             </div>
             </div>
-            <div>
+            <div className='grid gap-y-10'>
               <div className='flex bg-slate-600'>
                 <img src="./src/assets/history/google.png" alt="" className='size-16'/>
                 <div className='px-5'>
