@@ -1,12 +1,12 @@
 import React from 'react'
 
-function ProjectsListItem() {
+function ProjectsListItem(props) {
   return (
     <div className='card bg-slate-800 '>
         
             <img src="./src/assets/projects/project.png" alt="" className='py-6 px-6' />
             <div className='grid gap-y-3'>
-            <h4 className='px-5 text-white'>Project A</h4>
+            <h4 className='px-5 text-white'>{props.item.project}</h4>
             <p className='px-5 text-white'>This is a project made to
             learn the latest languages
             by building an app.</p>
