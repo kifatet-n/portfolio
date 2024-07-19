@@ -4,11 +4,11 @@ function About() {
   return (
     <div className='bg-black mx-20'>
         <h2 className='text-white px-[120px] py-10'>ABOUT</h2>
-        <div className='flex'>
-            <img src="./src/assets/about/aboutImage.png" alt="" />
+        <div className=' '>
+            <img src="./src/assets/about/aboutImage.png" alt="" className='md:hidden xl:flex' />
             <div className='py-40 grid gap-y-10'>
                 <div className='flex bg-slate-950 '>
-                    <img src="./src/assets/about/cursorIcon.png" alt="" />
+                    <img src="./src/assets/about/cursorIcon.png" alt=""  />
                     <p className='text-white'>Frontend Developer <br />
                          I’m a front-end developer with experience <br />
                         in building responsive and optimized sites</p>
